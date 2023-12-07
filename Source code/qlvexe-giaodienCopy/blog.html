@@ -1,0 +1,105 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/menu.js"></script>
+    <script src="js/baiviet.js"></script>
+    <script>
+        window.onload = function () {
+            loadmenu();
+            loadAllbaiviet(0);
+        }
+    </script>
+</head>
+
+<body>
+    <div id="menuall"></div>
+    <div class="content">
+        <div class="container">
+            <div class="row" style="margin-top: 50px;">
+                <div class="col-main col-lg-8 mb-5">
+                    <section class="d-grid">
+                        <h4 class="flex-center-y justify-content-between mb-4">NEWS</h4>
+                        <div id="listblog">
+                            <article class="card card-post-h">
+                                <div class="row g-3 gx-md-4">
+                                    <div class="col-sm-5">
+                                        <a href=""><img class="thumbnail-img" src="https://st.ebomb.edu.vn/src/erp-image/2022/12/14/728a8dac-7358-4467-88d4-723153ec3598.png"></a>
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <div class="card-body">
+                                            <h5 class="card-title"><a href="">Hướng dẫn học lập trình Robot cho trẻ</a></h5>
+                                            <p class="card-text text-muted mb-2">Trẻ có thể bắt đầu học lập trình robot từ đâu? Hãy cùng đọc bài viết và tìm hiểu với Dino Tech nhé.</p>
+                                            <a class="card-read-more text-muted mt-auto fs-sm" href="">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article><hr>
+                        </div>
+                    </section>
+                    <div class="row align-items-center justify-content-md-between g-3 mt-3">
+                        <div class="col-md-auto">
+                            <nav aria-label="...">
+                                <ul class="pagination" id="listpage">
+                                  <li class="page-item disabled">
+                                    <a class="page-link" href="#" tabindex="-1">Previous</a>
+                                  </li>
+                                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                  <li class="page-item active">
+                                    <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+                                  </li>
+                                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                  <li class="page-item">
+                                    <a class="page-link" href="#">Next</a>
+                                  </li>
+                                </ul>
+                              </nav>
+                        </div>
+                        <div class="col-md-auto text-center">
+                            <span class="text-muted">Trang 1 trong tổng số 3 trang</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-main col-lg-4 mb-5">
+                    <h5 class="flex-center-y justify-content-between mb-4"><span class="title-line-h-2">các chuyến tàu</span></h5>
+                    <article class="card card-post-2 mb-3">
+                        <a><img class="thumbnail-img" src="image/images.jpg"></a>
+                    </article>
+                    <article class="card card-post-2 mb-3">
+                        <a class="" href=""><img class="thumbnail-img" src="image/maxresdefault.jpg"></a>
+                    </article>
+                    <h5 class="flex-center-y justify-content-between mb-4"><span class="title-line-h-2">trang kết nối</span></h5>
+                    <div class="social-buttons">
+                        <div class="d-grid gap-2 mb-4">
+                          <a class="btn btn-lg btn-white" href="" role="button"><i class="bi bi-tiktok"></i>Inova</a>
+                          <a class="btn btn-lg btn-white" href="" role="button">trạm Sài Gòn</a>
+                          <a class="btn btn-lg btn-white" href="" role="button">Dino Tech</a>
+                        </div>
+                        <div class="d-grid gap-2">
+                          <p class="text-white mb-0">Liên lạc trực tiếp</p>
+                          <a class="btn btn-lg btn-white" href="tel:02462947586" role="button">
+                            Gọi điện: <strong class="ms-1">02462947586</strong>
+                          </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer" id="footer"></footer>
+
+</body>
+
+
+</html>
